@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    }
+    
+.header h1 {
+    font-size: 40px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.error-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 50px 20px 50px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orangered;
+    border-radius: 5px;
+}
+
+.status-container {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-0%);
+    margin-bottom: 50px;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    border: 5px dotted;
+    border-color: orangered;
+    border-radius: 5px;
+}
+
+#payment-form-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 2px;
+    border-color: orangered;
+    border-radius: 5px;
+}
+
+.payment-form {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px 20px;
+    padding: 20px 50px 20px 50px;
+}
+
+#pay-button {
+    font-size: 20px;
+    grid-column: span 2;
+    color: orangered;
+}
+
+label {
+    font-weight: bold;
+}
+
+.payment-form input[type="number"] {
+    float: right;
+    clear: both;
+} 
+  
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
