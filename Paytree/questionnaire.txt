@@ -1,6 +1,0 @@
-1. Zowel Decimals als Money data types kunnen gebruikt worden.
-2. Voor het doen van berekingen met 'Monetary values', is het verstanding om bij het uitvoeren van de berekingen het geld bedrag * 100 te doen.
-    Bijv. 1,29 euro * 100 = 129 euro in cents. Zou je dit doen met twee bedragen namelijk 1,30 as 130 en 2,50 as 250 en die optellen dan zou je 130 + 250 hebben wat 380 is omgerekend in euro cent naar euro door te delen door 100 = 3.80 euro.
-3. 
-4. Laraval.
-5.
